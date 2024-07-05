@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
 </head>
+
 <body>
     <section>
         <h1>Feedback Form</h1>
         <form action="text">
-            <label for="text">First Name: 
+            <label for="text">First Name:
                 <input type="text" placeholder="Enter Your First Name">
             </label>
-            <label for="text">Last Name: 
+            <label for="text">Last Name:
                 <input type="text" placeholder="Enter Your Last Name">
             </label>
-            <label for="email">Email: 
+            <label for="email">Email:
                 <input type="email" placeholder="Enter Your Email">
             </label>
-            <label for="phone">Phone: 
+            <label for="phone">Phone:
                 <input type="tel" placeholder="Enter Your Phone Number">
             </label>
             <br>
@@ -38,6 +40,7 @@
                     <input type="radio" name="gender" id="other">Other
                 </label>
             </fieldset>
+            <br>
             <fieldset>
                 <legend>Food Item</legend>
                 <label for="vegetables">
@@ -56,8 +59,50 @@
                     <input type="checkbox" name="" id="">Fish
                 </label>
             </fieldset>
+            <br>
+            <fieldset>
+                <legend>Drinks</legend>
+                <label for="cocacola">
+                    <input type="checkbox" name="" id="">Cocacola
+                </label>
+                <label for="7up">
+                    <input type="checkbox" name="" id="">7Up
+                </label>
+                <label for="moja">
+                    <input type="checkbox" name="" id="">Mojo
+                </label>
+                <label for="Sprite">
+                    <input type="checkbox" name="" id="">Sprite
+                </label>
+                <label for="cl+eamon">
+                    <input type="checkbox" name="" id="">Cleamon
+                </label>
+            </fieldset>
         </form>
-        
+        <form action="">
+            <span>Payment Method Selection:</span>
+            <label for="online">
+                <input type="radio" name="payment" id="oline">Online
+            </label>
+            <label for="cash">
+                <input type="radio" name="payment" id="cash">Cash
+            </label>
+        </form>
+        <form action="">
+            <p>Feedback: <select name="" id="">Feedback selection
+                    <option value="">Excellent</option>
+                    <option value="">Good</option>
+                    <option value="">Bad</option>
+                </select></p>
+            <textarea name="" id="" cols="30" rows="10"
+                placeholder="write something about our food and service quality"></textarea>
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+
     </section>
 </body>
+
 </html>
